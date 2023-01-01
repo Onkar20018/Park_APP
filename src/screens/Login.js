@@ -17,7 +17,7 @@ const Login = ({navigation}) => {
       <TextInput placeholder="PassWord" style={{fontSize:20,textAlign:'justify'}}secureTextEntry={true} />
      </View>
      <TouchableOpacity onPress={()=>{}} >
-      <Text style={{fontSize:25 ,backgroundColor:'purple',paddingHorizontal:8,borderRadius:8,paddingHorizontal:100,color:'white'}} >Login</Text>
+      <Text style={{fontSize:25 ,paddingBottom:8,backgroundColor:'purple',borderRadius:8,paddingHorizontal:80,color:'white'}} >Login</Text>
      </TouchableOpacity>
      <View style={{flexDirection:'row'}}>
            <Text style={{fontSize:16,marginTop:30}}>New to Parko ?</Text> 
