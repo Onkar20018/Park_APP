@@ -26,8 +26,8 @@ const Register = ({navigation}) => {
      <View style={{flexDirection:'row', borderBottomColor:'black',borderBottomWidth:1,borderColor:'black',marginBottom:15 ,paddingHorizontal:54}}>
       <TextInput placeholder="Confirm PassWord" style={{fontSize:20,textAlign:'justify'}}secureTextEntry={true} />
      </View>
-     <TouchableOpacity onPress={()=>{}} >
-      <Text style={{fontSize:28 ,backgroundColor:'purple',borderRadius:8,paddingHorizontal:100,paddingBottom:5 ,color:'white',alignContent:"center"}} >Login</Text>
+     <TouchableOpacity onPress={()=>{navigation.goBack()}} >
+      <Text style={{fontSize:28 ,backgroundColor:'purple',borderRadius:8,paddingHorizontal:100,paddingBottom:5 ,color:'white',alignContent:"center"}} >Register</Text>
      </TouchableOpacity>
      <View style={{flexDirection:'row'}}>
            <Text style={{fontSize:16,marginTop:8}}>Already Registered ?</Text> 

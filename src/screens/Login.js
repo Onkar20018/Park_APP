@@ -16,7 +16,7 @@ const Login = ({navigation}) => {
      <View style={{flexDirection:'row', borderBottomColor:'black',borderBottomWidth:1,borderColor:'black',marginBottom:15 ,paddingHorizontal:100}}>
       <TextInput placeholder="PassWord" style={{fontSize:20,textAlign:'justify'}}secureTextEntry={true} />
      </View>
-     <TouchableOpacity onPress={()=>{}} >
+     <TouchableOpacity onPress={()=>{navigation.navigate('Home')}}>
       <Text style={{fontSize:25 ,paddingBottom:8,backgroundColor:'purple',borderRadius:8,paddingHorizontal:80,color:'white'}} >Login</Text>
      </TouchableOpacity>
      <View style={{flexDirection:'row'}}>
